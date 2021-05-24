@@ -3,6 +3,7 @@ import io.gitlab.arturbosch.detekt.Detekt
 import org.jlleitschuh.gradle.ktlint.KtlintPlugin
 
 buildscript {
+    val kotlin_version by extra("1.5.0")
     repositories {
         google()
         jcenter()
